@@ -1,0 +1,1 @@
+export const DEPARTMENTS = ["Technology and Vocational Education"];
