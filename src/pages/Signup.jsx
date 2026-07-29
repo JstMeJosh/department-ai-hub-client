@@ -31,7 +31,6 @@ const Signup = () => {
       toast.success(response.data?.message);
       navigate("/login");
     }  catch (error) {
-      console.log(error.response?.data?.errors)
     const backendErrors = error.response?.data?.errors;
     if (backendErrors && Array.isArray(backendErrors)) {
         setErrors(backendErrors.map((err) => err.message));
