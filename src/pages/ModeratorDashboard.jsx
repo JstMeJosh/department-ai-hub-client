@@ -74,7 +74,7 @@ const ModeratorDashboard = () => {
           </h1>
           <button
             onClick={() => navigate("/upload")}
-            className="hidden sm:flex items-center gap-2 bg-[#0A2647] text-white px-4 py-2 rounded-sm hover:bg-[#0d3060] transition text-sm"
+            className="items-center gap-2 bg-[#0A2647] text-white px-4 py-2 rounded-sm hover:bg-[#0d3060] transition text-sm"
           >
             <Upload className="w-4 h-4" />
             Upload Material
